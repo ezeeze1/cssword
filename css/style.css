@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+color: rgb(34, 11, 245);
+}
+
+.heading{
+    color: rgb(184, 11, 11);
+
+}
+#menu{
+    background-color: rgb(15, 85, 236);
+    width: auto;
+    height: 30px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(7, 7, 7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    
+}
+#menu a:hover{
+    background-color: darksalmon;
+
+}
+
+#hero{
+    background-color: rgb(77, 49, 236);
+    height: 400px;
+    width: auto;
+    margin-top: 6px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#hero h1{
+color: white;
+font-size: 60px;
+
+}
+#hero p{
+    color: wheat;
+    font-size: 40px;
+}
+
+#hero a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#hero a:hover{
+    background-color: aqua;
+}
+
+#courses{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#courses h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#courses img{
+    height: 200px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
